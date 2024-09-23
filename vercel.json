@@ -1,13 +1,11 @@
-{
+ {
     "version": 2,
     "builds": [
       {
-        "src": "api/paiementorigin.php",
+        "src": "*.php",
         "use": "@vercel/php"
       }
     ],
-    "rewrites": [
-      { "source": "/", "destination": "/api/paiementorigin.php" }
-    ]
+    "rewrites": [{ "source": "/(.*)", "destination": "/paiementorigin.html" }]
   }
   
