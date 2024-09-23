@@ -6,6 +6,6 @@
         "use": "@vercel/php"
       }
     ],
-    "rewrites": [{ "source": "/(.*)", "destination": "/paiementorigin.html" }]
+    "rewrites": [{ "source": "/(.*)", "destination": "/paiementorigin.php" }]
   }
   
